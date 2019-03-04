@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StringGridctrl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TANSHU~1\AppData\Local\Temp\RSP6668.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/StringGridctrl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C Studio Software and Workspace\VC Workspace\201505_HKT-手工写信息版\201505_HKT-手工写信息版 1\StringGridctrlDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\TANSHU~1\AppData\Local\Temp\RSP6668.tmp" 
+Creating temporary file "C:\Users\TANSHU~1\AppData\Local\Temp\RSP6669.tmp" with contents
+[
+Askcsc.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/StringGridctrl.pdb" /debug /machine:I386 /out:"Debug/StringGridctrl.exe" /pdbtype:sept 
+".\Debug\GridCell.obj"
+".\Debug\GridCellBase.obj"
+".\Debug\GridCtrl.obj"
+".\Debug\GridDropTarget.obj"
+".\Debug\InPlaceEdit.obj"
+".\Debug\MyComPort.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StringGridctrl.obj"
+".\Debug\StringGridctrlDlg.obj"
+".\Debug\TCDModule.obj"
+".\Debug\Thread.obj"
+".\Debug\TitleTip.obj"
+".\Debug\StringGridctrl.res"
+]
+Creating command line "link.exe @C:\Users\TANSHU~1\AppData\Local\Temp\RSP6669.tmp"
+<h3>Output Window</h3>
+Compiling...
+StringGridctrlDlg.cpp
+d:\visual c studio software and workspace\vc workspace\201505_hkt-手工写信息版\201505_hkt-手工写信息版 1\stringgridctrldlg.cpp(4) : fatal error C1853: 'Debug/StringGridctrl.pch' is not a precompiled header file created with this compiler
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+StringGridctrl.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
